@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products catalogue</title>
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+    <nav class="navbar navbar-light bg-light" id="nav_catalogue">
+
+        <a class="navbar-brand" href="store.html"> Home </a>
+        <a class="navbar-brand" href="gallery.html">Products</a>
+        <a class="navbar-brand" href="catalogue.html">About</a>
+        <a class="navbar-brand" href="cart.html">Shopping Cart</a>
+        <a class="navbar-brand" href="mailto:mandeyacedrich@gmail.com">Contact Us</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn-info" type="submit">Search</button>
+        </form>
+
+    </nav>
+    <!-- This is a hoverable table -->
+    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+
+        <table class="table table-hover table-bordered table-stripped table-warning">
+            <div class="table_image">
+                <thead>
+                    <tr>
+                        <th colspan="4" id="headingallery">Our Product Range</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr class="danger">
+
+                        <th scope="row"> Fruits </th>
+
+                        <td><img src="https://images.pexels.com/photos/209439/pexels-photo-209439.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt="red apple" class="image-thumbnail img-fluid img-responsive rounded-circle"></td>
+                        <td><img src="https://images.pexels.com/photos/161559/background-bitter-breakfast-bright-161559.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt="orange fruit" class="rounded-circle img-fluid img-responsive "></td>
+                        <td><img src="https://images.pexels.com/photos/2196064/pexels-photo-2196064.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt="grape fruit" class="img-fluid img-responsive rounded-circle"></td>
+                        <td><img src="https://images.pexels.com/photos/2316466/pexels-photo-2316466.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt="bananas" class="img-fluid img-responsive rounded-circle"></td>
+                        <td><img src="https://images.pexels.com/photos/5629818/pexels-photo-5629818.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt="mangoes" class="img-fluid img-responsive rounded-circle"></td>
+            </div>
+            </tr>
+            <tr>
+                <th scope="row"> Vegetables </th>
+                <td><img src="https://images.pexels.com/photos/2325843/pexels-photo-2325843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        alt="spinach" class="img-fluid img-responsive rounded-circle"></td>
+                <td><img src="https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        alt="tomatoes" class="img-fluid img-responsive rounded-circle"></td>
+                <td><img src="https://images.pexels.com/photos/2920402/pexels-photo-2920402.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        alt="onions" class="img-fluid img-responsive rounded-circle"></td>
+                <td><img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        alt="carrots" class="img-fluid img-responsive rounded-circle"></td>
+                <td><img src="https://images.pexels.com/photos/128536/pexels-photo-128536.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        alt="peppers" class="img-fluid img-responsive rounded-circle"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h4 style="text-align: center;">check our specials below:</h4>
+    <h5 style="text-align: center;"><i>Fruits</i></h5>
+    <hr>
+    <div class="container" id="specialbuy-1">
+        <div style="background-color:cadetblue;" class="row">
+            <div class="column">
+                <ul>
+                    <li><img src="images/fresh_grape.jpg" height="150" width="200" class="img-responsive rounded">Fresh
+                        grapes @
+                        R34.99</li>
+            </div>
+            <div class="column">
+                <li><img src="images/peaches.jpg" height="150" width="200" class="img-responsive rounded">Peaches @ 2.35
+                    each
+                </li>
+            </div>
+            </ul>
+
+        </div>
+    </div>
+    <hr>
+    <h5 style="text-align: center;"><i>Vegetables</i></h5>
+    <hr>
+    <div class="container" id="specialbuy-2">
+        <div style="background-color: grey;" class="row">
+            <div class="column">
+                <ul>
+                    <li><img src="images/fresh_cabbage.jpg" height="150" width="200"
+                            class="img-responsive rounded">Fresh
+                        cabbage
+                        head @ R29.99 each</li>
+            </div>
+            <div class="column">
+                <li><img src="images/green beans and coli flower.jpg" height="150" width="200"
+                        class="img-responsive rounded">Green beans and coli-flower combo @R45.00</li>
+            </div>
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+
+
+    <!--hoverable images-->
+    <div class="image_container">
+        <div class="image__priced">
+            <img class="image__img_a" src="images/avocados.jpg" alt="avocados">
+            <div class="image__overlay">
+                <div class="image__title">Avocados</div>
+                <p class="image__description">
+                    R45.99
+                </p>
+            </div>
+
+        </div>
+
+        <div class="image__priced">
+            <img class="image__img_b" src="images/strawberries.jpg" alt="strawberries">
+            <div class="image__overlay">
+                <div class="image__title">Grapes(assorted)</div>
+                <p class="image__description">
+                    R63.00
+                </p>
+            </div>
+        </div>
+
+        <div class="image__priced">
+            <img class="image__img_c" src="images/fresh_lemons.jpg" alt="fresh lemons">
+            <div class="image__overlay">
+                <div class="image__title">Fresh Lemons</div>
+                <p class="image__description">
+                    R32.00
+                </p>
+            </div>
+        </div>
+
+        <div class="image__priced">
+            <img class="image__img_d" src="images/spinach_plate.jpg" alt="spinach">
+            <div class="image__overlay">
+                <div class="image__title">Spinach</div>
+                <p class="image__description">
+                    R22.05
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+    <!-- form -->
+
+
+
+
+
+    <form>
+        <div class="form-group row">
+            <label for="email_address" class="col-sm-1 col-form-label.">Email Address:</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="email_address" ariadescribedby="emailHelp"
+                    placeholder="Enter email">
+            </div>
+            <small id="emailHelp" class="form-text text-muted col-11 order-3">We will never share your email
+                with anyone
+                else.</small>
+
+        </div>
+        <div class="form-group row">
+            <label for="exampleInputPassword1" class="col-sm-1 col-form-label.">Password:</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+        </div>
+        <div class="form-group form-check shadow-lg p-3 mb-5 bg-white rounded">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label for="exampleCheck1" class="col-sm-1 col-form-label.">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-success btn-sm">Submit</button>
+
+
+    </form>
+</body>
+
+</html>
+
+</body>
+
+</html>

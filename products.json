@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Fresh Grapes",
+        "price": 45.99,
+        "image": {"fields": { "file": { "url": "./images/fresh_grape.jpg"}}}
+      } 
+    },
+
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Avocados",
+        "price": 30.99,
+        "image": {"fields": { "file": { "url": "./images/avocados.jpg"}}}
+      } 
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "lemons",
+        "price": 55.35,
+        "image": {"fields": { "file": { "url": "./images/fresh_lemons.jpg"}}}
+      }
+    },
+
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "peaches",
+        "price": 28.25,
+        "image": {"fields": { "file": { "url": "./images/peaches.jpg"}}}
+      }
+    }
+
+  ]
+}
