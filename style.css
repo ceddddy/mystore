@@ -65,7 +65,7 @@ body {
 #mainnav a:hover {
     background-color: coral;
     color: white;
-
+    z-index: 1;
 }
 
 #nav_catalogue a:hover {
