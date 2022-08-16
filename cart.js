@@ -40,7 +40,7 @@ class Products {
           image
         }
       })
-      return products
+      return products;
     } catch (error) {
       console.log(error);
     }
@@ -65,7 +65,7 @@ class UI {
               </button>
           </div>
           <h3>${product.title}</h3>
-          <h4>${product.price}</h4>
+          <h4>R ${product.price}</h4>
 
       </article>
       <!--end of single product-->
@@ -239,8 +239,8 @@ class Storage {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const ui = new UI();
-  const products = new Products();
+  const ui = new UI(); // instance of the UI class above 
+  const products = new Products();  //instance of the Products class above
   
   //setup APP
 ui.setupAPP();
