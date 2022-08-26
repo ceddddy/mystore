@@ -283,16 +283,28 @@ body {
     color: var(--primaryColour);
     cursor: pointer;
 }
-
-.clear-cart-banner-btn{
-  border-radius: 5px;
+/* 
+.clear-cart-banner-btn {
+  /* border-radius: 5px; 
   background-color:var(--primaryColour);
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
-  
+  padding: 1rem 3rem;
+} */
+.banner-btn,
+.clear-cart-banner-btn {
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  font-size: 1rem;
+  background: var(--primaryColour);
+  color: var(--mainBlack);
+  border: 1px solid var(--primaryColour);
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
 
-  
+.clear-cart-button {
+  text-align: center;
 }
